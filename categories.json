@@ -1,4 +1,19 @@
 {
+    "animales": [
+        "alefante",
+        "gato",
+        "gatos",
+        "kavayo",
+        "kulvera",
+        "kulveras",
+        "lonso",
+        "pasharo",
+        "pato",
+        "perro",
+        "perros",
+        "vaka",
+        "vakas"
+    ],
     "kolores": [
         "amariyo",
         "blanko",
@@ -6,6 +21,7 @@
         "grizo",
         "kolorado",
         "mavi",
+        "moreno",
         "portokal",
         "preto",
         "vedre"
