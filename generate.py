@@ -19,10 +19,15 @@ def main():
     with open(os.path.join(lili_path, 'course', 'verbs', 'module.yaml')) as fh:
         verbs_module = yaml.load(fh, Loader=yaml.Loader)
     categories['verbos'] = [filename[0:-5] for filename in verbs_module['Skills']]
-    categories['ropa']= load_words(os.path.join(lili_path, 'course', 'words', 'skills', 'clothes.yaml'))
-    categories['partes de kuerpo']  = load_words(os.path.join(lili_path, 'course', 'words', 'skills', 'body.yaml'))
-    categories['kolores']  = load_words(os.path.join(lili_path, 'course', 'words', 'skills', 'colors.yaml'))
-    categories['animales'] = load_words(os.path.join(lili_path, 'course', 'words', 'skills', 'animals.yaml'))
+    skills = {
+        'ropa':             'clothes.yaml',
+        'partes de kuerpo': 'body.yaml',
+        'kolores':          'colors.yaml',
+        'animales':         'animals.yaml',
+        'espor':            'sport.yaml',
+    }
+    for cat, filename in skills.items():
+        categories[cat]= load_words(os.path.join(lili_path, 'course', 'words', 'skills', filename))
 
     cat_file = 'categories.json'
     with open(cat_file, 'w') as fh:
