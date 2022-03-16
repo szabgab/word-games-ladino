@@ -14,8 +14,29 @@
         "vaka",
         "vakas"
     ],
+    "bebida": [
+        "agua",
+        "alkol",
+        "bira",
+        "chay",
+        "kafe",
+        "kave",
+        "leche",
+        "sumo"
+    ],
     "espor": [
         "basketbol"
+    ],
+    "fruta": [
+        "banana",
+        "fruta",
+        "karpuz",
+        "limon",
+        "mansana",
+        "mansanas",
+        "portokal",
+        "uva",
+        "zirguela"
     ],
     "kolores": [
         "amariyo",
@@ -36,6 +57,31 @@
         "preto",
         "roz",
         "vedre"
+    ],
+    "komida": [
+        "arroz",
+        "kezo",
+        "miel",
+        "pan",
+        "pastel",
+        "poyo",
+        "salata",
+        "sopa",
+        "vedrura",
+        "vedruras"
+    ],
+    "naturaleza": [
+        "aire",
+        "aire",
+        "arvol",
+        "flor",
+        "lago",
+        "mar",
+        "montanya",
+        "plaj",
+        "rio",
+        "sielo",
+        "sol"
     ],
     "partes de kuerpo": [
         "boka",
@@ -85,6 +131,34 @@
         "sintura",
         "sosten",
         "vestido"
+    ],
+    "transportasyon": [
+        "aeroporto",
+        "araba",
+        "arabas",
+        "avion",
+        "aviones",
+        "bilyeto",
+        "bisikleta",
+        "estasion",
+        "koche",
+        "oto",
+        "otobus",
+        "otobuses",
+        "otomobil",
+        "plataforma",
+        "taksi",
+        "treno"
+    ],
+    "vedrura": [
+        "berendjena",
+        "karota",
+        "kartof",
+        "patatas",
+        "pipino",
+        "sevoya",
+        "tomate",
+        "tomates"
     ],
     "verbos": [
         "adjustar",

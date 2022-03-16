@@ -25,6 +25,13 @@ def main():
         'kolores':          'colors.yaml',
         'animales':         'animals.yaml',
         'espor':            'sport.yaml',
+        'transportasyon':   'transportation.yaml',
+        'vedrura':          'vegetables.yaml',
+        'fruta':            'frutas.yaml',
+        'komida':           'food.yaml',
+        'bebida':           'drinks.yaml',
+        'naturaleza':       'nature.yaml',
+
     }
     for cat, filename in skills.items():
         categories[cat]= load_words(os.path.join(lili_path, 'course', 'words', 'skills', filename))
