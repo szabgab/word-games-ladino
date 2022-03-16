@@ -16,14 +16,22 @@
     ],
     "kolores": [
         "amariyo",
+        "azul",
         "blanko",
         "blu",
+        "blu de syelo",
+        "bordo",
         "grizo",
+        "khaki",
         "kolorado",
+        "maron",
         "mavi",
-        "moreno",
+        "mor",
+        "morado",
+        "mov",
         "portokal",
         "preto",
+        "roz",
         "vedre"
     ],
     "partes de kuerpo": [
@@ -57,7 +65,6 @@
         "pulmones"
     ],
     "ropa": [
-        "antalones",
         "chapeo",
         "chapeyo",
         "fusta",
@@ -66,6 +73,7 @@
         "kamizeta",
         "kravata",
         "muslin",
+        "pantalones",
         "pantalones",
         "ropa",
         "ropa interior",
