@@ -1,0 +1,66 @@
+{
+    "games": {
+        "en": {
+            "file": "en.json",
+            "keyboard_id": "en",
+            "name": "English",
+            "xname": "English",
+            "source": "https://github.com/szabgab/word-games-english",
+            "wikipedia": "https://en.wikipedia.org/wiki/"
+        },
+        "he": {
+            "dir": "rtl",
+            "file": "he.json",
+            "keyboard_id": "he",
+            "name": "Hebrew",
+            "xname": "עברית",
+            "source": "https://github.com/szabgab/word-games-hebrew",
+            "wikipedia": "https://he.wikipedia.org/wiki/"
+        },
+        "hu": {
+            "file": "hu.json",
+            "keyboard_id": "hu",
+            "name": "Hungarian",
+            "xname": "Magyar",
+            "source": "https://github.com/szabgab/word-games-hungarian",
+            "wikipedia": "https://hu.wikipedia.org/wiki/"
+        },
+        "fr": {
+            "file": "fr.json",
+            "keyboard_id": "fr",
+            "name": "French",
+            "xname": "Français",
+            "source": "https://codeberg.org/kate/word-games-french",
+            "wikipedia": "https://fr.wikipedia.org/wiki/"
+        },
+        "de": {
+            "file": "de.json",
+            "keyboard_id": "de",
+            "name": "German",
+            "xname": "Deutsch",
+            "source": "https://codeberg.org/kate/word-games-german",
+            "wikipedia": "https://de.wikipedia.org/wiki/"
+        },
+        "lad": {
+            "dictionary": "https://lili.szabgab.com/ladino-from-english",
+            "file": "ladino.json",
+            "keyboard_id": "ladino",
+            "name": "Ladino",
+            "xname": "Espanyol",
+            "source": "https://github.com/szabgab/word-games-ladino",
+            "wikipedia": "https://lad.wikipedia.org/wiki/"
+        },
+        "eo": {
+            "file": "eo.json",
+            "keyboard_id": "eo",
+            "name": "Esperanto",
+            "xname": "Esperanto",
+            "source": "https://github.com/frayoyo/word-games-esperanto",
+            "wikipedia": "https://eo.wikipedia.org/wiki/"
+        },
+    },
+    "meta": {
+        "prefix": "",
+        "release_date": ""
+    }
+}
