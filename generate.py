@@ -3,6 +3,7 @@ import json
 import sys
 import os
 import yaml
+import re
 
 sys.path.append('../word-games-code/')
 from tidy_json import tidy
@@ -10,8 +11,12 @@ from tidy_json import tidy
 def load_words(filename):
     with open(filename) as fh:
         skill = yaml.load(fh, Loader=yaml.Loader)
-    words = [list(pair.values())[0] for pair in skill['Two-way-dictionary']]
-    return words
+    words = []
+    for pair in skill['Two-way-dictionary']:
+        word = list(pair.values())[0]
+        word = re.sub(r' *\([^)]*\) *', '', word)
+        words.append(word)
+    return sorted(set(words))
 
 def main():
     categories = {}
@@ -31,7 +36,7 @@ def main():
         'komida':           'food.yaml',
         'bebida':           'drinks.yaml',
         'naturaleza':       'nature.yaml',
-
+        'kozina':           'kitchen.yaml',
     }
     for cat, filename in skills.items():
         categories[cat]= load_words(os.path.join(lili_path, 'course', 'words', 'skills', filename))
